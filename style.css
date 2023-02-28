@@ -1,0 +1,67 @@
+    body {
+    font-size: 16px;
+    background-color: #f2f2f2;
+  }
+
+  #lista-tareas {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+  }
+  #lista-tareas li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display:-moz-box;
+    align-items: center;
+    justify-content: space-between;
+  } 
+  
+  #lista-tareas li button {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  #lista-tareas li button:hover {
+    background-color: #aaa;
+    color: #fff;
+
+  }
+
+  #lista-tareas li.completed {
+    color: green;
+    text-decoration: line-through;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #444;
+  }
