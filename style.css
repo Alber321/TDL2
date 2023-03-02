@@ -8,11 +8,12 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    
   }
   #lista-tareas li {
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 10px;
     display:-moz-box;
     align-items: center;
@@ -24,10 +25,11 @@
     color: #333;
     border: none;
     border-radius: 5px;
-    padding: 10px;
-    font-size: 14px;
+    padding: 5px;
+    font-size: 15px;
     cursor: pointer;
     margin-left: 5px;
+    float: right;
   }
   
   #lista-tareas li button:hover {
@@ -65,3 +67,12 @@
   form button[type="submit"]:hover {
     background-color: #444;
   }
+  h2{
+   text-align: center !important;
+  }
+  /* .eliminar{
+    float: right;
+    right: 0;
+    background-color: aqua;
+    position: relative;
+  } */
